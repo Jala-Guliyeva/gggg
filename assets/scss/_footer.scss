@@ -1,0 +1,58 @@
+.footer-bg{
+    display:block;
+    margin-top: 100%;
+    .footer-items{
+        @include flex-box(none, none);
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                
+                &:not(:first-child){
+                    padding-left: 25px;
+                }
+                
+                a{
+                    padding: 5px;
+                    font-weight: 700;
+                    transition: all .3s;
+                    &:hover{
+                        color: $main-color;
+                    }
+                }
+            }
+            
+        }
+    }
+   
+    .social-element{
+      
+       
+        ul{
+              
+       .fa-brands{
+        size: 80px;
+        margin-top: 30px;
+        margin-left: 20px;
+        
+    }
+            list-style: none;
+            display: flex;
+            li{
+                
+               padding-left: 20px;
+              
+                
+                i{
+                    padding: 5px;
+                    font-weight: 700;
+                   
+                 
+                }
+               
+            }
+            
+       }
+        
+    }
+}
